@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPRU ITS - Ruangan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../customs.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img id="logo-simpru" src="/src/img/SimpruLOGO.png" alt="Logo SIMPRU" width="280" height="73.04">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/app/html/aboutus.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>Kategori Pemesanan - Ruangan</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ruangan</a></li>
+              <li><a class="dropdown-item" href="/app/html/kendaraan.html">Kendaraan</a></li>
+              <li><a class="dropdown-item" href="#">Lainnya</a></li>
+            </ul>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="/app/html/profile.html">Akun Saya</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <form class="d-flex mx-2" role="search">
+            <input class="form-control me-2" type="search" placeholder="Ingin menyewa apa?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Cari</button>
+          </form>
+          <div class="dropdown mx-2 d-none d-md-block">
+            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/src/icon/AccountIcon.svg" alt="Account Icon" width="36px" height="36px">
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="/app/html/profile.html">Akun Saya</a></li>
+              <li><a class="dropdown-item" href="#">Pesanan Saya</a></li>
+              <li><a class="dropdown-item" href="#">Keluar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!---->
+
+  <!-- Ruangan -->
+  <div id="ruangan">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col">
+          <h1 class="text-center my-4">Ruangan</h1>
+          <p class="text-center">ITS menyediakan berbagai ruangan di berbagai area yang ada di ITS. Ruangan-ruangan ini sepenuhnya digunakan untuk mendukung semua kegiatan elemen dari ITS, mulai dari mahasiswa, dosen, dan staf ITS. Pemesanan tiap ruang yang ada di ITS dapat dilakukan pada website ini.</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center flex-wrap">
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/Pascasarjana.webp" class="card-img-top" alt="Pascasarjana">
+          <div class="card-body">
+            <h5 class="card-title">Pascasarjana</h5>
+            <p class="card-text">Ruang Pascasarjana yang cukup besar dapat digunakan oleh mahasiswa ITS untuk berbagai keperluan mahasiswa ITS</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/GrahaITS.webp" class="card-img-top" alt="Graha ITS">
+          <div class="card-body">
+            <h5 class="card-title">Graha ITS</h5>
+            <p class="card-text">Graha ITS adalah gedung yang berada di kampus ITS yang berfungsi sebagai tempat untuk mengadakan acara-acara besar.</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/PusatRobotika.webp" class="card-img-top" alt="Gedung Robotika">
+          <div class="card-body">
+            <h5 class="card-title">Hall Gedung Robotika</h5>
+            <p class="card-text">Gedung Robotika memiliki Hall yang cukup luas yang juga terdapat tribun yang total dapat menampung 1000+ orang</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/TeaterA.webp" class="card-img-top" alt="Teater A">
+          <div class="card-body">
+            <h5 class="card-title">Teater A</h5>
+            <p class="card-text">ITS memiliki 3 teater dilengkapi dengan kebutuhan layar, sound, dan pendingin ruangan yang dapat digunakan oleh mahasiswa ITS</p>
+            <a href="/teaterA.html" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/TeaterB.webp" class="card-img-top" alt="Teater B">
+          <div class="card-body">
+            <h5 class="card-title">Teater B</h5>
+            <p class="card-text">Sama seperti Teater A, teater B juga memiliki kelengkapan yang dimiliki oleh Teater A, termasuk kursi lipat di tiap baris tangganya</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/TeaterC.webp" class="card-img-top" alt="Teater C">
+          <div class="card-body">
+            <h5 class="card-title">Teater C</h5>
+            <p class="card-text">Teater C juga salah satu teater yang dapat digunakan oleh seluruh elemen ITS. Teater ini juga biasa dipakai untuk pertunjukkan kesenian</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <!-- Footer -->
+  <div class="container-fluid bg-blacks-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h1 class="text-light text-center my-4">Kontak</h1>
+          <p class="text-light text-center">Jl. Raya ITS, Keputih, Sukolilo, Kota SBY, Jawa Timur 60111</p>
+          <p class="text-light text-center">+62 31 599 5111</p>
+          <p class="text-light text-center">its.ac.id</p>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-light text-center my-4">Sosial Media</h1>
+          <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com/its.ac.id" class="btn btn-light mx-1">
+              <img src="/src/icon/FacebookIcon.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://www.instagram.com/its.ac.id/" class="btn btn-light mx-1">
+              <img src="/src/icon/InstagramIcon.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://www.youtube.com/channel/UCZ9Y4Z2Z1Z0Z9Z0Z9Z0Z0Z0" class="btn btn-light mx-1">
+              <img src="/src/icon/YoutubeIcon.svg" alt="Youtube Icon">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-light text-center my-4">Tentang Kami</h1>
+          <p class="text-light text-center">ITS adalah institut yang berada di Surabaya, Jawa Timur. ITS memiliki banyak fasilitas yang dapat digunakan oleh mahasiswa ITS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="/app/js/app.js"></script>
+</body>
+</html>

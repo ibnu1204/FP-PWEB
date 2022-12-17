@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIMPRU ITS - Kendaraan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="../customs.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img id="logo-simpru" src="/src/img/SimpruLOGO.png" alt="Logo SIMPRU" width="280" height="73.04">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/app/html/aboutus.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>Kategori Pemesanan - Kendaraan</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/app/html/ruangan.html">Ruangan</a></li>
+              <li><a class="dropdown-item" href="#">Kendaraan</a></li>
+              <li><a class="dropdown-item" href="#">Lainnya</a></li>
+            </ul>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="/app/html/profile.html">Akun Saya</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <form class="d-flex mx-2" role="search">
+            <input class="form-control me-2" type="search" placeholder="Ingin menyewa apa?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Cari</button>
+          </form>
+          <div class="dropdown mx-2 d-none d-md-block">
+            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/src/icon/AccountIcon.svg" alt="Account Icon" width="36px" height="36px">
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="/app/html/profile.html">Akun Saya</a></li>
+              <li><a class="dropdown-item" href="#">Pesanan Saya</a></li>
+              <li><a class="dropdown-item" href="#">Keluar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!---->
+
+  <!-- Kendaraan -->
+  <div id="kendaraan">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col">
+          <h1 class="text-center my-4">Kendaraan</h1>
+          <p class="text-center">Selain ruangan, ITS juga senantiasa menyediakan peminjaman kendaraan. ITS memahami bahwa ITS merupakan institut yang cukup luas untuk dilakukannya pemindahan barang-barang dari satu gedung ke gedung lainnya. Maka dari itu, ITS ingin melengkapi kebutuhan elemen ITS yang sekiranya membutuhkan kendaraan untuk pemindahan barang</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center flex-wrap">
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/MobilPickup.webp" class="card-img-top" alt="Mobil Pickup">
+          <div class="card-body">
+            <h5 class="card-title">Mobil Pickup</h5>
+            <p class="card-text">Mobil Pickup dapat digunakan untuk pemindahan barang-barang yang berukuran kecil sampai sedang</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/TrukBox.webp" class="card-img-top" alt="Truk Box">
+          <div class="card-body">
+            <h5 class="card-title">Truk Box</h5>
+            <p class="card-text">Truk Box dapat digunakan untuk mengangkat barang cukup besar, membantu mahasiswa saat melakukan pindah kos</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/TrukEngkel.webp" class="card-img-top" alt="Truk Engkel">
+          <div class="card-body">
+            <h5 class="card-title">Truk Engkel</h5>
+            <p class="card-text">Truk Engkel dapat digunakan untuk pemindahan kursi-kursi saat acara besar di ITS, seperti acara PSB dan OKKBK</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/mobil.webp" class="card-img-top" alt="Mobil">
+          <div class="card-body">
+            <h5 class="card-title">Mobil</h5>
+            <p class="card-text">ITS juga menyediakan beberapa mobil yang dapat bisa disewa oleh mahasiswa ITS untuk berbagai kepentingan</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+        <div class="card m-3 wrapper">
+          <img id="img-card" src="/src/img/motor.webp" class="card-img-top" alt="Motor">
+          <div class="card-body">
+            <h5 class="card-title">Motor</h5>
+            <p class="card-text">Selain mobil, ITS juga menyediakan motor untuk keperluan antar-mengantar. Biasanya digunakan jika darurat</p>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <!-- Footer -->
+  <div class="container-fluid bg-blacks-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h1 class="text-light text-center my-4">Kontak</h1>
+          <p class="text-light text-center">Jl. Raya ITS, Keputih, Sukolilo, Kota SBY, Jawa Timur 60111</p>
+          <p class="text-light text-center">+62 31 599 5111</p>
+          <p class="text-light text-center">its.ac.id</p>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-light text-center my-4">Sosial Media</h1>
+          <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com/its.ac.id" class="btn btn-light mx-1">
+              <img src="/src/icon/FacebookIcon.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://www.instagram.com/its.ac.id/" class="btn btn-light mx-1">
+              <img src="/src/icon/InstagramIcon.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://www.youtube.com/channel/UCZ9Y4Z2Z1Z0Z9Z0Z9Z0Z0Z0" class="btn btn-light mx-1">
+              <img src="/src/icon/YoutubeIcon.svg" alt="Youtube Icon">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-light text-center my-4">Tentang Kami</h1>
+          <p class="text-light text-center">ITS adalah institut yang berada di Surabaya, Jawa Timur. ITS memiliki banyak fasilitas yang dapat digunakan oleh mahasiswa ITS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="/app/js/app.js"></script>
+</body>
+</html>
